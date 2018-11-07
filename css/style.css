@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.container {
+	width: 50%;
+	height: 50vh;
+	margin: 25vh auto;
+	text-align: center;
+	border: 2px solid teal;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.inputs > input {
+	width: 40%;
+}
+
+.operators {
+	width: 20%;
+}
